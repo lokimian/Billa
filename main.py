@@ -1,6 +1,9 @@
-numbers=range(5,10,2)
-for number in range(5):
-    print(number)
-#the following functions prints hello world
-print("Hello World")
-#comment
+
+temperature=11
+if temperature>30:
+ print("it's a hot day")
+ print("drink cold water")
+elif temperature>20: #(20, 30)
+  print("It's a nice day")
+elif temperature>10:
+ print("It's a bit cold day")
