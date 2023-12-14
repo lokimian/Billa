@@ -1,9 +1,10 @@
+from Helpdesk import Helpdesk
+help_desk = Helpdesk()
 
-temperature=11
-if temperature>30:
- print("it's a hot day")
- print("drink cold water")
-elif temperature>20: #(20, 30)
-  print("It's a nice day")
-elif temperature>10:
- print("It's a bit cold day")
+print(help_desk.create_ticket('User1', 'Network issue'))
+print(help_desk.create_ticket('User2', 'Software problem'))
+
+print(help_desk.view_tickets())
+
+
+
