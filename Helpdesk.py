@@ -3,7 +3,7 @@ class Helpdesk:
         self.tickets = {}
 
     def create_ticket(self, user, issue):
-        ticket_id = len(self.tickets) + 1
+        ticket_id = len(self.tickets) + 2001
         self.tickets[ticket_id] = {'user': user, 'issue': issue, 'status': 'Open'}
         return f'Ticket #{ticket_id} created successfully.'
 
