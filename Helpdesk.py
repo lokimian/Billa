@@ -12,6 +12,8 @@ class Helpdesk:
             return 'No tickets available.'
         ticket_list = '\n'.join([f'Ticket #{ticket_id} - User: {ticket["user"]}, Issue: {ticket["issue"]}, Status: {ticket["status"]}' for ticket_id, ticket in self.tickets.items()])
         return ticket_list
+    def total_tickets(self):
+        total_tickets=len(open_tickets)
 
     def close_ticket(self, ticket_id):
         if ticket_id in self.tickets:
