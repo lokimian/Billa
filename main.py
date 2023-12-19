@@ -9,10 +9,11 @@ print(help_desk.close_ticket)
 print(help_desk.view_tickets())
 
 # Calculate and print the results
+def calculate_ticket_stats(tickets):
+    pass
+
 open_count, closed_count = calculate_ticket_stats(tickets)
 
 print(f"Total Open Tickets: {open_count}")
 print(f"Total Closed Tickets: {closed_count}")
 #comment
-
-
