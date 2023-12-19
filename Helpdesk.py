@@ -9,8 +9,9 @@ class Helpdesk:
 
     def view_tickets(self):
         if not self.tickets:
+            #print("no ticks avail")
             return 'No tickets available.'
-        ticket_list = '\n'.join([f'Ticket #{ticket_id} - User: {ticket["user"]}, Issue: {ticket["issue"]}, Status: {ticket["status"]}' for ticket_id, ticket in self.tickets.items()])
+        ticket_list = '\n'.join([f'Ticket #: {ticket_id},  User: {ticket["user"]}, Issue: {ticket["issue"]}, Status: {ticket["status"]}' for ticket_id, ticket in self.tickets.items()])
         return ticket_list
 
 
@@ -21,19 +22,40 @@ class Helpdesk:
         else:
             return f'Ticket #{ticket_id} not found.'
 
+    def count_ticket_status(self, tickets):
+        open_count = 0
+        closed_count = 0
 
+        # Split the string into individual tickets
+        ticket_list = tickets.split('\n')
+
+        for ticket_str in ticket_list:
+            # Split each ticket string into key-value pairs
+            ticket_info = dict(item.strip().split(': ') for item in ticket_str.split(', '))
+
+            # Check if the 'Status' key exists in the ticket dictionary
+            if 'Status' in ticket_info:
+                # Increment counters based on the status
+                if ticket_info['Status'] == 'Open':
+                    open_count += 1
+                elif ticket_info['Status'] == 'Closed':
+                    closed_count += 1
+
+        return open_count, closed_count
  # Function to calculate total open and closed tickets
-    def calculate_ticket_stats(ticket_list):
+    def calculate_ticket_stats(slef, ticket_list):
         open_tickets = 0
         closed_tickets = 0
+        print(ticket_list)
+
 
         for ticket in ticket_list:
-            if ticket["status"] == "open":
+            if ticket["Status"] == 'Open':
                 open_tickets += 1
-            elif ticket["status"] == "closed":
+            elif ticket["Status"] == "Closed":
                 closed_tickets += 1
 
         return open_tickets, closed_tickets
 
         #comment-Readme added
-        print("Done")
+        #print("Done")
