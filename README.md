@@ -9,5 +9,6 @@ Put names of the users
 Practiced open and close tickets.
 Worked on the open and close number of helpdesk tickets.
 Statistics of open and close tickets emerged with problems of linking the ticket lists to the statistic block.
-With search and hit and trial, linked tickets list with the count statics.
+With search, trying hit and trial, worked out to link ticket dictionary/tickets list with the count statics.
 Printed the status of open and close tickets, alongwith the ticket creation and discription. 
+Ticket open and closed count status printed with one tcket closed.
