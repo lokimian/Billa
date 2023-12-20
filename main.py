@@ -5,7 +5,7 @@ print(help_desk.create_ticket('Tom', 'Network issue'))
 print(help_desk.create_ticket('Mel', 'Software problem'))
 print(help_desk.create_ticket('Jo', 'Pass word change'))
 
-print(help_desk.close_ticket(2001))
+print(help_desk.close_ticket(2002))
 ticket_list=help_desk.view_tickets()
 
 #print(ticket_list)

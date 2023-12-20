@@ -43,7 +43,7 @@ class Helpdesk:
 
         return open_count, closed_count
  # Function to calculate total open and closed tickets
-    def calculate_ticket_stats(slef, ticket_list):
+    def calculate_ticket_stats(self, ticket_list):
         open_tickets = 0
         closed_tickets = 0
         print(ticket_list)
