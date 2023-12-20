@@ -12,3 +12,4 @@ Statistics of open and close tickets emerged with problems of linking the ticket
 With search, trying hit and trial, worked out to link ticket dictionary/tickets list with the count statics.
 Printed the status of open and close tickets, alongwith the ticket creation and discription. 
 Ticket open and closed count status printed with one tcket closed.
+Addressed the typo error found in the codes, then error correction and another practice of closing a  ticket
