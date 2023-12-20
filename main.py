@@ -9,7 +9,7 @@ print(help_desk.close_ticket)
 ticket_list=help_desk.view_tickets()
 
 #print(ticket_list)
-#print(help_desk.view_tickets())
+print(help_desk.view_tickets())
 #print(help_desk.calculate_ticket_stats())
 
 
