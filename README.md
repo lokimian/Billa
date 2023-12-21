@@ -16,3 +16,4 @@ Addressed the typo error found in the codes, then error correction and another p
 Setting up sign in with email and ID. problem came with 'tciket_id'. Working on smooting the sign in process for closing a ticket. 
 Creation of the signing in of the users, after handling with repeatedly poping up the errors in deveolping print commands.
 Change users ID and Users Sign in practised and then worked again with Ticket creation with new ID and sign in details.
+One ticket closed with Ticket 3 and ID and obtained the status total of open and close tickets
