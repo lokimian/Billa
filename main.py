@@ -21,16 +21,13 @@ ticket_list=help_desk.view_tickets()
 
 #print(ticket_list)
 print(help_desk.view_tickets())
-#print(help_desk.calculate_ticket_stats())
-
 
 open_count, closed_count = help_desk.count_ticket_status(ticket_list)
 print(open_count, closed_count)
-#ticketid= help_desk.create_ticket("john", "pc not working")
-#print(ticket_id)
-#help_desk.view_tickets()
+
+# Example: Changing passwords
+print(help_desk.change_password(1, 'password123', 'newpassword'))  # Successful password change
+#print(help_desk.change_password(1, '123Tom1', 'IamTom1'))  # Invalid current password
 
 
-#print(f"Total Open Tickets: {open_count}")
-#print(f"Total Closed Tickets: {closed_count}")
 #comment

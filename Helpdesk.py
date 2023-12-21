@@ -73,5 +73,13 @@ class Helpdesk:
                 closed_tickets += 1
 
         return open_tickets, closed_tickets
+
+    def change_password(self, user_id, current_password, new_password):
+            if user_id in self.users and self.users[user_id]['password'] == current_password:
+                self.users[user_id]['password'] = new_password
+                return 'Password changed successfully.'
+            else:
+                return 'Invalid user ID or incorrect current password.'
+
         #comment-Readme added
         #print("Done")
