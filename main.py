@@ -25,7 +25,7 @@ print(help_desk.view_tickets())
 open_count, closed_count = help_desk.count_ticket_status(ticket_list)
 print(open_count, closed_count)
 
-# Example: Changing passwords
+# Changing passwords
 print(help_desk.change_password(1, 'password123', 'newpassword'))  # Invalid current password
 print(help_desk.change_password(1, '123Tom1', 'IamTom1'))  # Password changed for User 1
 
