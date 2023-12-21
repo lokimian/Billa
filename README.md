@@ -1,4 +1,5 @@
-This is a Helpdesk Tickets readme file for Assignmet-2 for IT5016D. The project name is Lokimian under which the file Billa is set up.
+This is a Helpdesk Tickets readme file.
+Prepared for Assignmet-2 of IT5016D. The project name is Lokimian under which the file Billa is set up.
 Building up a repository was a tough task, as it needed abit more of skills and perhaps an exposure to run a repository under supervision.
 Linking it to the pycharm project was another challenge. The` bigger challenge was to link local Github desktop, on-lione repository and then pycharm and operation a successful ineraction.
 Making a file on pycharm and linking it to the "main py directory/file" was quite confusing and took a few days to understand multiple happenings.
