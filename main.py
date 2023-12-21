@@ -9,14 +9,14 @@ print(help_desk.create_user(3, 'jo@whitecliffe.com', '789Jo3'))
 # Signing in with ID or email
 print(help_desk.sign_in(1, '123Tom1'))  # Tom signs in
 print(help_desk.sign_in(2, '456Mel2'))  # Mel signs in
+print(help_desk.sign_in(3, '789Jo3'))  # Jo signs in
 
 
+print(help_desk.create_ticket(1, 'Network issue')) # Tom creates a ticket
+print(help_desk.create_ticket(2, 'Software problem')) # Mel creates a ticket
+print(help_desk.create_ticket(3, 'Pass word change'))  # Jo creates a ticket
 
-print(help_desk.create_ticket('Tom', 'Network issue'))
-print(help_desk.create_ticket('Mel', 'Software problem'))
-print(help_desk.create_ticket('Jo', 'Pass word change'))
-
-print(help_desk.close_ticket(1,2002))
+#print(help_desk.close_ticket(2002))
 ticket_list=help_desk.view_tickets()
 
 #print(ticket_list)
