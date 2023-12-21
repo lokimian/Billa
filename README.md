@@ -17,5 +17,5 @@ Setting up sign in with email and ID. problem came with 'tciket_id'. Working on 
 Creation of the signing in of the users, after handling with repeatedly poping up the errors in deveolping print commands.
 Change users ID and Users Sign in practised and then worked again with Ticket creation with new ID and sign in details.
 One ticket closed with Ticket 3 and ID and obtained the status total of open and close tickets
-Pass word change function for users worked on. The practice done with incorrect password with required "incorrect existing password.
-Set up of pass word change work checked and successfully changed the user pass word.
+Password change function for users worked on. The practice done with incorrect password with a result of "incorrect existing password".
+Set up of password change work checked and successfully changed the user pass word.
