@@ -1,7 +1,7 @@
 This is a Helpdesk Tickets readme file.
 Prepared for Assignmet-2 of IT5016D. The project name is Lokimian under which the file Billa is set up.
 Building up a repository was a tough task, as it needed abit more of skills and perhaps an exposure to run a repository under supervision.
-Linking it to the pycharm project was another challenge. The` bigger challenge was to link local Github desktop, on-lione repository and then pycharm and operation a successful ineraction.
+Linking it to the pycharm project was another challenge. The` bigger challenge was to link local Github desktop, on-lione repository and pycharm and then operation of a successful interaction.
 Making a file on pycharm and linking it to the "main py directory/file" was quite confusing and took a few days to understand multiple happenings.
 Coding itself is quite delicate job, which poses challenges if you are not the capable of handling or trouble shooting the problems. Various problems poped up to be resolved, but resolution didnot happen before making the troubles further complex.
 So, learning of coding with self mistakes is hard, as the understanding level is not high.
