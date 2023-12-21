@@ -16,7 +16,7 @@ print(help_desk.create_ticket(1, 'Network issue')) # Tom creates a ticket
 print(help_desk.create_ticket(2, 'Software problem')) # Mel creates a ticket
 print(help_desk.create_ticket(3, 'Pass word change'))  # Jo creates a ticket
 
-#print(help_desk.close_ticket(2002))
+print(help_desk.close_ticket(2,2002))
 ticket_list=help_desk.view_tickets()
 
 #print(ticket_list)
