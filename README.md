@@ -13,3 +13,4 @@ With search, trying hit and trial, worked out to link ticket dictionary/tickets 
 Printed the status of open and close tickets, alongwith the ticket creation and discription. 
 Ticket open and closed count status printed with one tcket closed.
 Addressed the typo error found in the codes, then error correction and another practice of closing a  ticket
+Setting up sign in with email and ID. problem came with 'tciket_id'. Working on smooting the sign in process for closing a ticket. 
